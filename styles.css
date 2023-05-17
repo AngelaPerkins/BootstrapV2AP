@@ -77,4 +77,6 @@ div.content {
 .col-4{
   border: solid 5px black;
 }
-
+.text-break{
+  word-wrap: normal;
+}
