@@ -1,10 +1,12 @@
-
+body{
+  background-color: whitesmoke;
+}
 /*Sidebar navigation (W3 Schools template) */
 .sidebar {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color:rgb(222, 241, 222);
+  background-color:rgb(189, 229, 243);
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -20,7 +22,7 @@
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #04AA6D;
+  background-color: #0d7b93;
   color: white;
 }
 
@@ -60,15 +62,16 @@ div.content {
   height:100vh;
 }
 .col-2{
-  border: solid 5px green;
+  border: solid 5px #0d7b93;
   height: 50vh;
-  
+  border-style: inset;
  
 }  
 .col-3{
-  border: solid 5px blue;
+  border: solid 5px #0d7b93;
   height: 50vh;
   justify-content: flex-end;
+  border-style: inset;
 }
 .form-floating{
   justify-content: end;
@@ -79,4 +82,7 @@ div.content {
 }
 .text-break{
   word-wrap: normal;
+}
+p{
+  background-color:aliceblue;
 }
